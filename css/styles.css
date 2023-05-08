@@ -1,0 +1,131 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  /* color: hsl(228, 45%, 44%); */
+  color: white;
+}
+
+:root {
+  --color-background-main: hsl(217, 54%, 11%);
+  --color-background-card: hsl(216, 50%, 16%);
+  --color-text: hsl(215, 51%, 70%);
+  --color-ethereum: hsl(178, 100%, 50%);
+  --color-line: hsl(215, 32%, 27%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Outfit', sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--color-background-main);
+  line-height: 1.5;
+  color: white;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+  margin-top: 1.8rem;
+}
+
+figure {
+  margin: 0;
+  display: flex;
+  width: 100%;
+}
+
+figure,
+p {
+  color: var(--color-text);
+  font-size: 1.5rem;
+}
+
+hr {
+  margin: 1.5rem 0;
+  height: 1px;
+  background-color: var(--color-line);
+  border: none;
+}
+
+span {
+  color: white;
+}
+
+span:hover,
+h1:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.card {
+  height: 54rem;
+  width: 32.5rem;
+  background-color: var(--color-background-card);
+  border-radius: 15px;
+  padding: 2.5rem;
+}
+
+.equilibrium {
+  width: 100%;
+  border-radius: 15px;
+  display: block;
+}
+
+.equilibrium:hover {
+  cursor: pointer;
+}
+
+.equilibrium--hover {
+  display: none;
+  width: 100%;
+}
+
+.figure-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.figure-right {
+  justify-content: flex-end;
+}
+
+.figure-avatar {
+  display: flex;
+  align-items: center;
+}
+
+.figure-avatar img {
+  width: 3.3rem;
+  border: 1px solid white;
+  border-radius: 100%;
+  margin-right: 2rem;
+}
+
+.figure-avatar figcaption {
+  height: 100%;
+}
+
+.eth {
+  color: var(--color-ethereum);
+}
+
+.figure-container-img {
+  margin-right: 1rem;
+  height: 100%;
+}
