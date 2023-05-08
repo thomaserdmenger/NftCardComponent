@@ -41,4 +41,4 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [@thomaserdmenger](https://www.frontendmentor.io/profile/thomaserdmenger)
-- GitHun - [@thomaserdmenger](https://github.com/thomaserdmenger)
+- GitHub - [@thomaserdmenger](https://github.com/thomaserdmenger)
