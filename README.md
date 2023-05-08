@@ -27,7 +27,6 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Live Site URL](https://thomaserdmenger.github.io/NftCardComponent/)
 
 ## My process
@@ -42,4 +41,4 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [@thomaserdmenger](https://www.frontendmentor.io/profile/thomaserdmenger)
-- GitHun - [@thomaserdmenger](https://github.com/thomaserdmenger
+- GitHun - [@thomaserdmenger](https://github.com/thomaserdmenger)
